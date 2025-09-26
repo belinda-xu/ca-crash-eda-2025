@@ -1,7 +1,8 @@
 # Exploring Car Collision Patterns in California (2025 YTD)
-Exploratory Data Analysis (EDA) of California’s 2025 year-to-date crash dataset from the [California Crash Reporting System (CCRS)](https://data.ca.gov/dataset/ccrs).  
-The goal is to identify **patterns in collision frequency and severity**, focusing on involved parties (e.g., pedestrians, vehicles) and collision types (e.g., rear-end, broadside).  
 
+**Data Source:** [California Crash Reporting System (CCRS)](https://data.ca.gov/dataset/ccrs)
+
+Exploratory Data Analysis (EDA) of California’s 2025 year-to-date crash dataset.
 
 ## Tools & Libraries
 - **Python** (Pandas, NumPy)  
@@ -10,8 +11,8 @@ The goal is to identify **patterns in collision frequency and severity**, focusi
 
 
 ## Data Cleaning & Preparation
-Steps taken to prepare the dataset:
-- Standardized column names and inspected data types
+Data Prep:
+- Standardized column names and reviewed data types and shape
 - Removed columns with >70% missing values and irrelevant fields
 - Verified `Collision_id` as a unique identifier
 - Checked redundancy between `IsHighwayRelated` and `IsFreeway`
@@ -19,7 +20,7 @@ Steps taken to prepare the dataset:
 
 
 ## Exploratory Data Analysis (EDA)
-This section explores both **frequency** and **severity** of collisions:
+This section explores both **frequency** and **severity** of collisions, by involved party type and collision type:
 
 - **Involved Party Analysis**  
   - Most common collision partners: other motor vehicles, pedestrians, bicycles  
