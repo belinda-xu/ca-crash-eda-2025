@@ -3,6 +3,12 @@ Exploratory Data Analysis (EDA) of California’s 2025 year-to-date crash datase
 The goal is to identify **patterns in collision frequency and severity**, focusing on involved parties (e.g., pedestrians, vehicles) and collision types (e.g., rear-end, broadside).  
 
 
+## Tools & Libraries
+- **Python** (Pandas, NumPy)  
+- **Visualization**: Plotly, Matplotlib  
+- **Data**: California Crash Reporting System (CCRS), 2025 YTD  
+
+
 ## Data Cleaning & Preparation
 Steps taken to prepare the dataset:
 - Standardized column names and inspected data types
@@ -24,9 +30,3 @@ This section explores both **frequency** and **severity** of collisions:
   - Most frequent: rear-end, sideswipe, hit-object, broadside  
   - Most severe: pedestrian, broadside (T-bone), head-on, overturned  
   - Broadsides combine **high frequency + high severity**, making them a critical target for prevention  
-
-
-## Tools & Libraries
-- **Python** (Pandas, NumPy)  
-- **Visualization**: Plotly, Matplotlib  
-- **Data**: California Crash Reporting System (CCRS), 2025 YTD  
